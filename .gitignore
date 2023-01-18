@@ -1,0 +1,9 @@
+**/.pytest_cache
+**/__pycache__
+/.idea
+/catboost_info
+/outputs
+/venv
+/tests
+/archive
+/data/glove.6B.50d.txt
