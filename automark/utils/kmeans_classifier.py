@@ -11,8 +11,8 @@ from automark.utils.evaluation_utils import pred_evaluate
 
 class KMeansClassifier:
     """A class that uses KMeans clustering model for clustering,
-    then use the true  of the point closest to
-    each clusters' center to predict label of all other points in that cluster.
+    then use the true label of the point closest to
+    each cluster's center to predict label of all other points in that cluster.
 
     Attributes:
         km_clf: the instance of KMeans clustering model that will be used.
