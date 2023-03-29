@@ -1,6 +1,6 @@
 # Machine Learning Literacy for Measurement Professionals: A Practical Tutorial
 
-This is the demo for the paper.
+This is the demo for the paper. Paper url: https://doi.org/10.1111/emip.12539
 
 ## Data
 
