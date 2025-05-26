@@ -292,7 +292,7 @@ Both approaches are valuable, depending on the goals, data size, and domain spec
 
 ### 5.3. “Unsupervised” (Technically Semi-Supervised) Learning Pipeline
 
-<details>
+<details open>
 
 ### (1) unsupervised_search.py
 
