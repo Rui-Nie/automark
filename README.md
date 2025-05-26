@@ -150,14 +150,14 @@ All datasets share the following structure:
 
 These pipelines demonstrate traditional supervised learning workflows using the `scikit-learn` library. They assume access to labeled training data and are designed to classify candidate responses using hand-crafted textual features.
 
-### 5.1.1. `supervised_simple.py`
+#### 5.1.1. `supervised_simple.py`
 <details open>
 
 This is a baseline pipeline to establish a starting point for model performance. It uses word unigrams as input features and applies a random forest classifier with default hyperparameters. The focus is on simplicity and interpretability, making it a solid initial benchmark for further model development.
 
 </details>
 
-### 5.1.2. `supervised_search.py`
+#### 5.1.2. `supervised_search.py`
 
 <details open>
 
@@ -314,7 +314,7 @@ Both approaches are valuable, depending on the goals, data size, and domain spec
 
 <details open>
 
-### (1) unsupervised_search.py
+#### 5.3.1. `unsupervised_search.py`
 
 This pipeline explores a clustering-based approach to augment human scoring—particularly useful for newly developed questions that lack labeled responses. While originally described as unsupervised in the published paper, the method is more accurately **semi-supervised**, since it relies on a small amount of human-labeled data to propagate labels across clusters.
 
