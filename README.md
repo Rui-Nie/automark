@@ -39,7 +39,7 @@ This demo explores how machine learning models can assist or even replace one hu
 ## 3. Model Summary
 <details open>
 
-This demo showcases a diverse set of machine learning techniques spanning classical models, deep learning architectures, and semi-supervised clustering methods.
+This demo showcases a diverse set of machine learning techniques spanning traditional models, deep learning architectures, and semi-supervised clustering methods.
 
 ### 3.1. Feature Engineering & Text Representation
 
@@ -57,7 +57,7 @@ We experimented with a wide range of input representations, including:
 <details open>
 
 **The supervised text classification models** include:
-- **Classical ML**: Logistic Regression, Random Forest, Linear SVM, and **CatBoost** (a high-performance gradient boosting library optimized for categorical features)
+- **Traditional ML**: Logistic Regression, Random Forest, Linear SVM, and **CatBoost** (a high-performance gradient boosting library optimized for categorical features)
 - **Deep Learning**: 
   - **CNN** with 1D convolutional layers using multiple kernel sizes (1, 3, 5) to capture local semantic patterns
   - **Transfer learning** using **XLNet**, a state-of-the-art transformer-based language model at the time of research, implemented via Hugging Face Transformers
