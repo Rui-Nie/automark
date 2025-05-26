@@ -1,15 +1,19 @@
 # Machine Learning Literacy for Measurement Professionals: A Practical Tutorial
 
 <!-- Language & Domain -->
-![Python](https://img.shields.io/badge/Python_3.8-3572A5?style=flat&logo=python&logoColor=white)
-![NLP](https://img.shields.io/badge/NLP-6A5ACD?style=flat)<!-- Learning Types -->
-![Supervised Learning](https://img.shields.io/badge/Supervised_Learning-1E90FF?style=flat)
-![Deep Learning](https://img.shields.io/badge/Deep_Learning-8A2BE2?style=flat)
-![Semi-Supervised Learning](https://img.shields.io/badge/Semi--Supervised_Learning-7B68EE?style=flat)
+![Python](https://img.shields.io/badge/Python_3.8-3776AB?style=flat&logo=python&logoColor=white)
+![NLP](https://img.shields.io/badge/NLP-8E44AD?style=flat) <!-- Deep Amethyst -->
+![Supervised Learning](https://img.shields.io/badge/Supervised_Learning-16A085?style=flat) <!-- Jade Green -->
+![Deep Learning](https://img.shields.io/badge/Deep_Learning-9B59B6?style=flat) <!-- Vibrant Orchid -->
+![Semi-Supervised Learning](https://img.shields.io/badge/Semi--Supervised_Learning-2980B9?style=flat) <!-- Clear Blue -->
+![Unsupervised Learning](https://img.shields.io/badge/Unsupervised_Learning-5DADE2?style=flat) <!-- Light Sky Blue -->
+
 
 <!-- Frameworks -->
-![scikit-learn](https://img.shields.io/badge/Framework-scikit--learn-FFA500?style=flat&logo=scikit-learn&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/Framework-TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-6E2C00?style=flat&logo=scikit-learn&logoColor=white) <!-- Deep coffee brown -->
+![TensorFlow](https://img.shields.io/badge/TensorFlow-D35400?style=flat&logo=tensorflow&logoColor=white) <!-- Burnt Amber -->
+
+
 
 ## 1. Overview
 
@@ -57,13 +61,13 @@ We experimented with a wide range of input representations, including:
 <details open>
 
 **The supervised text classification models** include:
-- **Traditional ML**: Logistic Regression, Random Forest, Linear SVM, and **CatBoost** (a high-performance gradient boosting library optimized for categorical features)
+- **traditional ML**: Logistic Regression, Random Forest, Linear SVM, and **CatBoost** (a high-performance gradient boosting library optimized for categorical features)
 - **Deep Learning**: 
   - **CNN** with 1D convolutional layers using multiple kernel sizes (1, 3, 5) to capture local semantic patterns
   - **Transfer learning** using **XLNet**, a state-of-the-art transformer-based language model at the time of research, implemented via Hugging Face Transformers
 
 **Hyperparameter optimization** was conducted using:
-- **Grid Search** for classical models and preprocessing pipeline tuning
+- **Grid Search** for traditional models and preprocessing pipeline tuning
 - **Random Search** (via Keras Tuner) for CNN model architecture, exploring choices like:
   - Pooling strategies (global max pooling, concatenation, flattening)
   - Dense layer sizes
@@ -104,10 +108,10 @@ Model performance was primarily evaluated using **accuracy**. To deepen model un
 - **ROC Curve** & **AUC**
 - **F-score**
 - **Cohen’s Kappa**
-- **Feature importance** for interpretable classical models
+- **Feature importance** for interpretable traditional models
 
 Validation strategies:
-- **5-fold cross-validation** for classical models
+- **5-fold cross-validation** for traditional models
 - **Stratified hold-out validation** (70/30) for deep learning models
 
 </details>
