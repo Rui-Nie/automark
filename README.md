@@ -42,12 +42,20 @@ This demo explores how machine learning models can assist or even replace one hu
 This demo showcases a diverse set of machine learning techniques spanning classical models, deep learning architectures, and semi-supervised clustering methods.
 
 ### 3.1. Feature Engineering & Text Representation
+
+<details open>
+
 We experimented with a wide range of input representations, including:
 - Word unigrams and character n-grams (with varying n)
 - Bag-of-Words (BoW) with and without TF-IDF weighting
 - **GloVe word embeddings** (pretrained vectors, as an implementation of **transfer learning**)
 
+</details>
+
 ### 3.2. Supervised Learning Models
+
+<details open>
+
 **The supervised text classification models** include:
 - **Classical ML**: Logistic Regression, Random Forest, Linear SVM, and **CatBoost** (a high-performance gradient boosting library optimized for categorical features)
 - **Deep Learning**: 
@@ -61,7 +69,12 @@ We experimented with a wide range of input representations, including:
   - Dense layer sizes
   - Learning rate and L2 regularization strength
 
+</details>
+
 ### 3.3. Semi-Supervised Learning: KMeans with Anchor Labels
+
+<details open>
+
 We designed a custom **KMeansClassifier** that enhances traditional clustering with minimal supervision. While KMeans is an unsupervised algorithm, our approach introduces a semi-supervised twist:
 
 1. **Clustering**  
@@ -80,7 +93,12 @@ This method allows us to generate interpretable clusters while using very limite
 
 To support flexible experimentation, we also implemented a **KMeansPipeline** class enabling preprocessing transformations (e.g., TF-IDF, dimensionality reduction) before clustering, and a **grid search** function to evaluate different preprocessing strategies end-to-end.
 
+</details>
+
 ### 3.4. Evaluation
+
+<details open>
+
 Model performance was primarily evaluated using **accuracy**. To deepen model understanding, we also examined:
 - **Confusion Matrix**
 - **ROC Curve** & **AUC**
@@ -91,6 +109,8 @@ Model performance was primarily evaluated using **accuracy**. To deepen model un
 Validation strategies:
 - **5-fold cross-validation** for classical models
 - **Stratified hold-out validation** (70/30) for deep learning models
+
+</details>
 
 </details>
 
